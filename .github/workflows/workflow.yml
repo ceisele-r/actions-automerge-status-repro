@@ -4,8 +4,7 @@ name: mainworkflow
 
 # Controls when the action will run. 
 on:
-  pull_request:
-    branches: [main]
+  push:
 
   workflow_dispatch:
 
