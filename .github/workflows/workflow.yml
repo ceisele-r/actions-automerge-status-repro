@@ -23,7 +23,7 @@ jobs:
         run: echo this will pass
       - name: Random job long
         run: |
-          sleep 61
+          sleep 30
   deploy:
       runs-on: ubuntu-latest
       needs: build
